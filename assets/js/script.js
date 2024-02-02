@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
  * and after the user's answer has been processed
  */
 
-function runGame() {
+function runGame(gameType) {
     //Empty value in answer-box, for new question
     document.getElementById("answer-box").value = "";
 
