@@ -23,8 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
  */
 
 function runGame() {
-    //Empty value, for new question
+    //Empty value in answer-box, for new question
     document.getElementById("answer-box").value = "";
+
+    //Answer box gains focus whenever game is run (mouse in answer-box)
+    document.getElementById("answer-box").focus();
 
     // Creates two random numbers between 1 and 25
     let num1 = Math.floor(Math.random() * 25) + 1;
