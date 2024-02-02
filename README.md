@@ -3,4 +3,4 @@ Code Institute Repo for Practice JavaScript project
 
 ## Website Pages
 Main Home View:
-![Screenshot](Complete.png)
+![Screenshot](complete.png)
