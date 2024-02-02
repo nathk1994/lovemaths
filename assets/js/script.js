@@ -14,7 +14,15 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
-        runGame("addition");
+
+    //Allow answer to be entered via Enter button
+    document.getElementById("answer-box").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            checkAnswer();
+        }
+    });
+
+    runGame("addition");
 });
 
 /**
